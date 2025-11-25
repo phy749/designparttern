@@ -1,0 +1,21 @@
+Component Composition = lắp ghép các component nhỏ thành component lớn,
+thay vì tạo ra một component “God Component” chứa mọi logic/UI.
+
+👉 Tư tưởng cốt lõi: “Composition over Inheritance”
+➡ Dùng thành phần (props, slots, children) để mở rộng hành vi thay vì kế thừa class.
+🧱 Tại sao cần Component Composition?
+✔ Giảm duplicate code
+
+Thay vì viết nhiều component gần giống nhau → chỉ cần wrap UI/logic trong components nhỏ.
+
+✔ Tái sử dụng cực cao
+
+Component có thể chèn bất kỳ UI nào vào “slot” / “children”.
+
+✔ Dễ test, dễ maintain
+
+Component nhỏ → logic rõ → test đơn giản → bug ít.
+
+✔ Thay đổi UI mà không phá code
+
+Chỉ thay đổi phần UI nằm trong children, không phải sửa component cha.

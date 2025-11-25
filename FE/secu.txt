@@ -1,0 +1,120 @@
+1.1 UI & Component Patterns (cực kỳ quan trọng)
+
+Học theo thứ tự:
+
+    Component Composition (Composite Pattern)
+
+    Smart–Dumb Components
+
+    Container–Presentational
+
+    Controlled / Uncontrolled Components
+
+    Atomic Design
+
+    (React) Custom Hooks 
+
+🎯 1.2 State Management Patterns (must-have)
+
+Học theo thứ tự:
+
+    Observer Pattern (cơ bản của React/Vue reactivity)
+
+    Flux Pattern
+
+    Redux Pattern (Reducer)
+
+    Pub/Sub Pattern
+
+    MVVM
+
+    Actor / State Machine (XState) — nâng cao
+
+⚡ 2. Học tiếp – nhóm xử lý API và data (practical nhất)
+
+Nhóm này rất gần với backend và cực hữu ích khi build SPA lớn.
+
+🎯 2.1 Data & API Patterns
+
+Học theo thứ tự:
+
+    Repository Pattern (FE)
+
+    Adapter Pattern
+
+    DTO / Data Mapper
+
+    Proxy Pattern (Interceptor)
+
+    Retry / Backoff Pattern
+
+    Cache-Aside Pattern (React Query/SWR)
+
+    Normalization Pattern
+
+
+🔥 3. Học khi đã khá – nhóm Performance & Rendering
+
+Nhóm này cần khi bạn đi vào dự án lớn.
+
+🎯 3.1 Performance & Rendering
+Học theo thứ tự:
+
+    Lazy Loading
+
+    Code Splitting
+
+    Memoization
+
+    Virtual DOM Optimization
+
+    Skeleton Loading
+
+    Virtual Scrolling
+
+    Progressive Rendering
+
+🧠 4. Học khi đã vững – nhóm kiến trúc tổng thể
+
+Nhóm này giúp bạn lên cấp Senior/Architect.
+
+🎯 4.1 Architecture Patterns
+
+Component-Based Architecture
+Học theo thứ tự:
+
+    MVC/MVVM (ở mức FE)
+
+    Clean Architecture (FE)
+
+    Feature-Sliced Design (FSD)
+
+    Modular Monolith FE
+
+    Micro-Frontend Architecture (nâng cao)
+
+5. Học thêm – nhóm nâng cao, ít dùng nhưng rất mạnh
+
+Behavioral Patterns
+
+    Strategy
+
+    Mediator
+
+    Command
+
+    Chain of Responsibility
+
+    Interpreter
+
+Integration & Async
+
+    Saga
+
+    RxJS Patterns
+
+    Offline-first
+
+    WebSocket patterns
+
+    Suspense (React)
