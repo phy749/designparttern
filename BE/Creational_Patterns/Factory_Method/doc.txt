@@ -1,0 +1,21 @@
+Ưu điểm
+    Tách rời việc tạo đối tượng khỏi client
+    Dễ mở rộng hệ thống
+    Tuân thủ nguyên tắc Open/Closed
+    Sử dụng polymorphism
+    Giảm phụ thuộc vào class cụ thể
+
+Nhược điểm
+    Tăng số lượng class
+    Cấu trúc phức tạp hơn Simple Factory
+    Khó theo dõi luồng tạo đối tượng
+    Không phù hợp với hệ thống nhỏ
+
+Các lỗi thường gặp khi dùng Factory Method
+    Tạo quá nhiều ConcreteFactory khi không cần thiết
+    ConcreteFactory tạo sai loại đối tượng
+    Lạm dụng Factory Method cho mọi object
+    Client cố gắng ép kiểu sản phẩm
+    Không dùng interface/abstract cho Product
+
+Đặc biệt: Tạo đối tượng mà không cần chỉ rõ lớp cụ thể của đối tượng đó.

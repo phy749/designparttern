@@ -1,0 +1,22 @@
+Ưu điểm
+    Kiểm soát tối đa số lượng instance → tránh tạo thừa.
+    Global Access → dùng dễ, ở đâu cũng truy cập được.
+    Tiết kiệm tài nguyên → nhất là với đối tượng nặng (DB connection).
+
+Nhược điểm
+    Khó test
+    Dễ lạm dụng → biến thành Global Object
+    Vi phạm nguyên tắc Single Responsibility (SRP)
+    Khó mở rộng
+    Vấn đề với đa luồng nếu không cẩn thận
+    Một số Singleton “nặng” có thể tốn tài nguyên
+
+Các lỗi thường gặp khi dùng Singleton
+    Phá Singleton bằng Reflection
+    → Dùng enum hoặc kiểm tra instance trong constructor.
+    Thread-safety không đảm bảo
+    → Không dùng version Lazy đơn giản.
+    Quá nhiều logic trong Singleton
+    → Singleton chỉ nên quản lý state dùng chung.
+    Lạm dụng thành Global Variable
+    → Dễ gây khó test, khó maintain.
