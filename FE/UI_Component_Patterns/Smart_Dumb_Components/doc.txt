@@ -1,0 +1,16 @@
+1.Mục tiêu của pattern
+    Tách logic ra khỏi UI.
+    Dễ tái sử dụng component trình bày (Dumb).
+    Smart quản lý state + API → Dumb chỉ render.
+    Dễ test logic vì Smart không phụ thuộc UI.
+    Dễ refactor sang framework/library khác.
+2.Dumb Component 
+    Vai trò: chỉ hiển thị UI, nhận props, gọi callback nếu cần.
+    Không có state business, không gọi API, không xử lý logic phức tạp.
+
+        Đặc điểm:
+            Nhận input qua props.
+            Emit sự kiện qua callback.
+            Không gọi API trực tiếp.
+            Có thể dùng lại nhiều nơi.
+            Rất dễ test.
